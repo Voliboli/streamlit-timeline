@@ -36,6 +36,6 @@ setuptools.setup(
     ],
     python_requires=">=3.6",
     install_requires=[
-        "streamlit >= 0.70",
+        "streamlit @ git+https://github.com/Voliboli/streamlit.git#egg=streamlit&subdirectory=lib",
     ],
 )
